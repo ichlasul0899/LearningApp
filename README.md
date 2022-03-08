@@ -122,3 +122,11 @@ Pastikan package-lock.json dihapus jika ada
 ----
 
 LearningApp adalah aplikasi pembelajaran online create by Story Programmer and Team.
+
+Fitur
+1. Homepage
+- Searching
+- Cart/keranjang
+- like content
+- signup
+- login
