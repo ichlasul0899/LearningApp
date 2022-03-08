@@ -103,3 +103,22 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+
+----
+
+## Cara berkontribusi :
+
+
+- Setelah Clone,
+Pastikan package-lock.json dihapus jika ada
+
+- Kemudian run : `npm install . `
+
+- Setelah berhasil,run : `gatsby develop`
+
+- Lalu buka : `http://localhost:8000/`
+
+----
+
+LearningApp adalah aplikasi pembelajaran online create by Story Programmer and Team.
