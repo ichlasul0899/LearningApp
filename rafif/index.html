@@ -12,21 +12,26 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav>
-    <div class="navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-      <a class="logo" href="#">
-        <img src="logo.png" style="padding: 0;">
-      </a>
-      <ul class="nav">
-        <li><a href="#course">Course</a></li>
-        <li><a href="#feature">Feature</a></li>
-        <li><a href="#review">Review</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#" class="button1">Join Newsletter</a></li>
-      </ul>
-    </div>
-    </div>
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" style="width: 200px; padding: 0px;"></img>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          </ul>
+          <ul class="nav nav-pills">
+              <li><a href="#">Course</a></li>
+              <li><a href="#">Feature</a></li>
+              <li><a href="#">Review</a></li>
+              <li><a href="#">Blog</a>  </li>
+              <li><a href="#" class="button1">Join Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
       <section class="banner-area" id="course">
       </section>
