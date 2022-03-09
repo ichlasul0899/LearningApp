@@ -35,6 +35,9 @@ p{
     margin-right: 15%;
     padding-top: 0;
 }
+.container-fluid{
+    width: 80%;
+}
 .logo {
     flex: 1 1 auto;
     margin-left: 10%;
